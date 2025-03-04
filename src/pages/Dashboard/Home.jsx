@@ -10,7 +10,7 @@ import UserTable from "../../components/Dashboard/UserTable";
 
 function App() {
   return (
-    <div className="p-4">
+    <div className="">
       <div className="flex gap-4">
         <div className="w-[70%] bg-gradient-to-b from-gradient-start to-gradient-end rounded-xl p-4 border border-[#1E293B]">
           {/* Chart Section */}

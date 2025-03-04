@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Orbitron', sans-serif;
+  background-color: #021432;
+}
+.border-gradient-to-r {
+  border-image: linear-gradient(to right, #f56565, #3182ce) 1;
+}
+.element {
+  border-bottom-right-radius: 40px;
+}
